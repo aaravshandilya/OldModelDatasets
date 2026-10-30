@@ -1,6 +1,18 @@
 # datasetcollectionsceneproject
 
-**Download the complete verified collection from [Releases](../../releases): `Hub_Datasets_50_Instances.zip`.** The archive includes all 50 Excel workbooks, 200 CSV files, Java dependencies, source code, and reproduction instructions. Extract the ZIP and run scripts from its `Hub_Datasets` folder. The scripts at this repository root mirror the bundled versions; their data and dependencies are inside the archive.
+The Excel datasets are available individually in these folders:
+
+| City | Hubs | Excel datasets |
+|---|---:|---|
+| Berlin | 10 | [berlin_10_hubs](berlin_10_hubs/) |
+| Vienna | 20 | [vienna_20_hubs](vienna_20_hubs/) |
+| London | 50 | [london_50_hubs](london_50_hubs/) |
+| Paris | 100 | [paris_100_hubs](paris_100_hubs/) |
+| Milan | 200 | [milan_200_hubs](milan_200_hubs/) |
+
+Each folder contains 10 separate `.xlsx` files. Open a workbook and choose **Download raw file** to download it individually. The filenames are the instance serial numbers (random seeds) listed in `dataset_index.csv`.
+
+The [v1.0.0 release](https://github.com/aaravshandilya/datasetcollectionsceneproject/releases/tag/v1.0.0) also contains the complete ZIP with all Excel workbooks, CSVs, Java dependencies, and reproduction instructions. To regenerate datasets, extract that archive and run the scripts from its `Hub_Datasets` folder.
 
 # Inventory repositioning datasets
 
